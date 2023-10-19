@@ -1,5 +1,5 @@
 
-export default {
+const servers = {
     skills: [
         "Docker",
         "Proxmox",
@@ -12,3 +12,4 @@ export default {
     color: 'text-violet-500',
     border: 'border-violet-500'
 }
+export default servers

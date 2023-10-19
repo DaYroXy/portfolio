@@ -1,5 +1,5 @@
 
-export default {
+const Technologies = {
     skills: [
         "ReactJs",
         "React-Native",
@@ -24,3 +24,4 @@ export default {
     color: 'text-emerald-500',
     border: 'border-emerald-500'
 }
+export default Technologies

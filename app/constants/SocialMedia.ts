@@ -2,8 +2,7 @@ import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
-
-export default [
+const SocialMedia = [
     {
         name: 'github',
         icon: faGithub,
@@ -20,3 +19,5 @@ export default [
         link: 'mailto:contact@dayorxy.online'
     },
 ]
+
+export default SocialMedia

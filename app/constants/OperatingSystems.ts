@@ -1,5 +1,5 @@
 
-export default {
+const OperatingSystems = {
     skills: [
         "Windows",
         "Linux",
@@ -8,3 +8,4 @@ export default {
     color: 'text-yellow-500',
     border: 'border-yellow-500'
 }
+export default OperatingSystems

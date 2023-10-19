@@ -1,5 +1,5 @@
 
-export default {
+const Languages = {
     skills: [
         "JavaScript",
         "Java",
@@ -18,3 +18,5 @@ export default {
     color: 'text-orange-500',
     border: 'border-orange-500'
 }
+
+export default Languages

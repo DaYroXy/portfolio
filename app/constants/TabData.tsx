@@ -7,7 +7,7 @@ import OperatingSystems from "./OperatingSystems";
 import Education from "./Education";
 import Servers from "./Servers";
 
-export default [
+const TabData = [
     {
         id: "Languages",
         content: <SkillSection skills={Languages.skills} color={Languages.color} border={Languages.border} />
@@ -33,3 +33,5 @@ export default [
         content: <SkillSection skills={Education.skills} color={Education.color} border={Education.border} />
     },
 ]
+
+export default TabData

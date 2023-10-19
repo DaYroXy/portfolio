@@ -1,5 +1,5 @@
 
-export default {
+const CyberSecurity = {
     skills: [
         "Cyber Infastructure",
         "Advanced Infastructure Attacks",
@@ -14,3 +14,5 @@ export default {
     color: 'text-red-500',
     border: 'border-red-500'
 }
+
+export default CyberSecurity
