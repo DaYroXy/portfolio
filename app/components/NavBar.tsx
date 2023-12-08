@@ -31,11 +31,11 @@ const NavBar = () => {
                 </Link>
                 <div className="mobile-menu block md:hidden text-white">
                     {navOpen ? (
-                        <button onClick={() => setNavOpen(!navOpen)}>
+                        <button aria-label="Toggle navigation menu" onClick={() => setNavOpen(!navOpen)}>
                             <FontAwesomeIcon className="border py-2 px-2 w-[25px] h-[25px] rounded-lg" icon={faXmark} />
                         </button>
                     ) : (
-                        <button onClick={() => setNavOpen(!navOpen)}>
+                        <button aria-label="Toggle navigation menu" onClick={() => setNavOpen(!navOpen)}>
                             <FontAwesomeIcon className="animate-fade-left animate-once animate-duration-[1500ms] animate-ease-in-out border py-2 px-2 w-[25px] h-[25px] rounded-lg" icon={faBars} />
                         </button>
                     )}

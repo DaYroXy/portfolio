@@ -10,15 +10,15 @@ const EmailSection = () => {
     return (
         <section id="contact" className='grid md:grid-cols-2 py-12 gap-4'>
             <div className="">
-                <h5 data-aos="fade-down" className='text-xl font-bold text-white my-2'>Let&apos;s Connect</h5>
+                <h2 data-aos="fade-down" className='text-xl font-bold text-white my-2'>Let&apos;s Connect</h2>
                 <p data-aos="fade-down" className='text-[#ADB7BE] mb-4 max-w-md'>
                     {" "}
                     Have questions, ideas, or just want to chat? I&apos;m always open to discussions and collaborations. Find the contact form below and drop me a message. I&apos;ll get back to you as soon as possible.
                 </p>
                 <div data-aos="fade-up" className="socials flex flex-row gap-6">
                     {SocialMedia.map(({ icon, link, name }, index) => (
-                        <Link key={name + index} href={link}>
-                            <FontAwesomeIcon className="text-white text-2xl" icon={icon} />
+                        <Link aria-label={name} key={name + index} href={link}>
+                            <FontAwesomeIcon aria-label={name} className="text-white text-2xl" icon={icon} />
                         </Link>
                     ))}
                     {/* <form className='flex flex-col'></form> */}

@@ -49,10 +49,10 @@ const HeroSection = () => {
                         </Link>
                         <div className="flex md:ml-6 mt-6 mb-3 lg:mt-6 md:my-0 xl:mt-0 justify-center sm:justify-start gap-10 items-center">
                             {SocialMedia.map(({ icon, link, name }, index) => (
-                                <a key={index} href={link}>
+                                <a key={index} aria-label={name} href={link}>
                                     <div className="animate-fade-down animate-once animate-duration-[1800ms] animate-ease-in-out rounded-full relative bg-gradient-to-br p-[2px] from-yellow-500 via-red-500 to-orange-500 flex items-center justify-center">
                                         <div className="w-[45px] h-[45px] rounded-full  bg-[#121212] p-2 flex items-center justify-center">
-                                            <FontAwesomeIcon className="text-white text-2xl" icon={icon} />
+                                            <FontAwesomeIcon aria-label={name} className="text-white text-2xl" icon={icon} />
                                         </div>
                                     </div>
                                 </a>
