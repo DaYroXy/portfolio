@@ -6,7 +6,7 @@ import AosProvider from './AOSProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DaYroXy - Porfolio Software Engineer and Cybersecurity Expertise',
+  title: 'DaYroXy - Software Engineer and Cybersecurity Expertise',
   description: "Explore DaYroXy's Portfolio showcasing cutting-edge Web Development and Cybersecurity solutions. Innovative, Professional, and Secure",
 }
 
