@@ -63,6 +63,7 @@ const HeroSection = () => {
                 <div className="animate-jump animate-once animate-duration-[800ms] animate-ease-in-out col-span-5 place-self-center mt-4 lg:mt-0">
                     <div className="rounded-full bg-gradient-to-r relative bg-[#161616] sm:w-[450px] sm:h-[450px] w-[325px] h-[325px]">
                         <Image className="rounded-[100px] absolute transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" width={400} height={400} src={DayroxyImage} alt="DaYroXy_Image" />
+                        <Image width={400} height={400} alt="icon" src={"https://dayroxy.b-cdn.net/images/logo.png"} />
                     </div>
                 </div>
             </div>
